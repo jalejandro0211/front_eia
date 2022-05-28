@@ -1,129 +1,174 @@
 .container {
-  padding: 0 2rem;
+	padding: 0 2rem;
 }
 
 .title {
-  color: black;
-  font-size: 100px;
-  text-align: center;
-  /* width: 100%; */
+	color: black;
+	font-size: 100px;
+	text-align: center;
+	/* width: 100%; */
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* background-color: rgb(83, 83, 83); */
+	min-height: 100vh;
+	padding: 4rem 0;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* background-color: rgb(83, 83, 83); */
 }
 
 .container_machine {
-  width: 800px;
-  height: 400px;
-  background-color: darkgrey;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+	width: 800px;
+	height: 400px;
+	background-color: darkgrey;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
 }
 
 .machine_label {
-  color: white;
-  font-size: 20px;
+	color: white;
+	font-size: 20px;
 }
 
 /* ceate machine */
 
 .container_form {
-  width: 800px;
-  height: 400px;
-  background-color: darkgrey;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+	width: 800px;
+	height: 400px;
+	background-color: darkgrey;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .row_form {
-  width: 100%;
-  height: 200px;
-  /* background-color: brown; */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+	width: 100%;
+	height: 200px;
+	/* background-color: brown; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .field_form {
-  width: 300px;
-  height: 100px;
-  /* background-color: blue; */
+	width: 300px;
+	height: 100px;
+	/* background-color: blue; */
 }
 
 .label_field {
-  color: black;
-  font-size: 20px;
-  text-align: center;
+	color: black;
+	font-size: 20px;
+	text-align: center;
 }
 
 .input_field {
-  width: 100%;
-  height: 25px;
-  border: 1px solid black;
-  border-radius: 5px;
-  margin-top: 20px;
+	width: 100%;
+	height: 25px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 20px;
 }
 
 .button_form {
-  width: 200px;
-  height: 50px;
-  background-color: black;
-  color: white;
-  border: 1px solid white;
-  cursor: pointer;
-  border-radius: 10px;
+	width: 200px;
+	height: 50px;
+	background-color: black;
+	color: white;
+	border: 1px solid white;
+	cursor: pointer;
+	border-radius: 10px;
 }
 
 .button_form:hover {
-  width: 250px;
+	width: 250px;
 }
 
 /* estilos de dashboard  */
 
 .container_widgets {
-  width: 100%;
-  height: 200px;
-  /* background-color: aqua; */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+	width: 100%;
+	height: 200px;
+	/* background-color: aqua; */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
 }
 
 .widget {
-  height: 100%;
-  width: 300px;
-  background-color: rgb(0, 0, 0);
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	height: 100%;
+	width: 300px;
+	background-color: rgb(0, 0, 0);
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .title_widget {
-  color: white;
-  font-size: 30px;
+	color: white;
+	font-size: 30px;
 }
 
 .row_widget {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Estilos Server */
+
+.chat_container {
+	width: 25%;
+	height: 550px;
+	background-color: gray;
+	border-radius: 15px;
+}
+
+.send_container {
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.message_container {
+	width: 100%;
+	height: 80%;
+	background-color: gray;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.input_message {
+	width: 80%;
+	height: 95%;
+	background-color: white;
+	border-radius: 15px;
+}
+
+.button_send {
+	width: 20%;
+	height: 50px;
+	background-color: gray;
+	color: white;
+	border: 1px solid white;
+	cursor: pointer;
+	border-radius: 10px;
 }

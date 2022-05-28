@@ -1,10 +1,37 @@
 .container_header {
-  position: absolute;
-  width: 80%;
-  /* background-color: aquamarine; */
-  height: 100px;
-  top: 0;
-  left: 15%;
-  display: flex;
-  justify-content: flex-end;
+	position: absolute;
+	width: 80%;
+	/* background-color: aquamarine; */
+	height: 100px;
+	top: 0;
+	left: 15%;
+	display: flex;
+	justify-content: center;
+}
+
+/* Estilos de Mensaje */
+.container_message {
+	width: 95%;
+	height: 70px;
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-radius: 10px;
+	/* justify-content: center; */
+	margin-top: 5px;
+}
+
+.text_message {
+	font-size: 30px;
+	color: black;
+	margin-top: 20px;
+}
+
+.client_text {
+	font-size: 20px;
+	color: rgb(129, 121, 121);
+	margin-top: 20px;
+	text-decoration: underline;
+	margin-right: 10px;
 }
